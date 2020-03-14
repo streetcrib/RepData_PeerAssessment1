@@ -7,7 +7,8 @@ output:
 
 
 ## Loading and preprocessing the data
-```{r loaddata}
+
+```r
 unzip(zipfile="activity.zip")
 data <- read.csv("activity.csv")
 ```
